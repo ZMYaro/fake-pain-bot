@@ -16,7 +16,7 @@ function handleKeyDown(ev) {
 
 const KEY_DOWN_MESSAGES1 = ['Ouch!', 'Ow!', 'Hey!', 'Stop poking me!', 'Stop it!'];
 function handleKeyDown(ev) {
-	showMessage(KEY_DOWN_MESSAGES.pickRandom());
+	showMessage(KEY_DOWN_MESSAGES1.pickRandom());
 }
 
 ////////
