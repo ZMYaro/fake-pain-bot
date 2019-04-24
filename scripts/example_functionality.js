@@ -24,7 +24,7 @@ function handleKeyDown(ev) {
 
 var keyPresses = 0;
 const KEY_PRESS_THRESHOLD = 5;
-const KEY_DOWN_MESSAGES2 = ['OK, seriously!', 'OW!', 'Please!', 'I\' begging you!', 'Please stop!', 'Please, that hurts!', 'That really hurts!'];
+const KEY_DOWN_MESSAGES2 = ['OK, seriously!', 'OW!', 'Please!', 'I\'m begging you!', 'Please stop!', 'Please, that hurts!', 'That really hurts!'];
 function handleKeyDown(ev) {
 	if (keyPresses < KEY_PRESS_THRESHOLD) {
 		showMessage(KEY_DOWN_MESSAGES1.pickRandom());
